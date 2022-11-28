@@ -2,6 +2,8 @@
 title: Slide page
 icon: slides
 layout: Slide
+article: false
+timeline: false
 ---
 
 <!-- markdownlint-disable MD024 MD033 MD051 -->

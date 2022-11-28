@@ -11,19 +11,44 @@ export default hopeTheme({
     email: "13160724868@163.com"
   },
 
+  headerDepth: 0,
+
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/head.jpg",          // 左上角logo
 
   repo: "pinsily/pinsily_site",
 
   docsDir: "docs",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  // 导航
+  prevLink: true,
+  nextLink: true,
 
+  // 页面元素
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView", "Word"],
+  contributors: true,
+  editLink: false,
+
+  // 页脚
+  footer: '<p class="text-center">备案号: <a href="https://beian.miit.gov.cn/">粤ICP备2021066983号-1</a></p>',
+  copyright: "Copyright © pinsily",
+  displayFooter: true,
+
+  // 外观选项
+  fullscreen: true,
+  backToTop: true,
+
+
+
+  // 博客配置
   blog: {
+    name: "pinsily's site",
+    avatar: "./head.jpg",
+    roundAvatar: true,
+    timeline: "昨日不在, 珍惜当下",
     description: "一个就这样的人~~",
-    intro: "/zh/intro.html",
+    intro: "/intro.html",
     medias: {
       Email: "https://example.com",
       Gitee: "https://example.com",
@@ -32,6 +57,9 @@ export default hopeTheme({
       Wechat: "https://example.com",
       Weibo: "https://example.com",
     },
+
+    articlePerPage: 20,
+    articleInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag", "ReadingTime", "Word"]
   },
 
 
@@ -40,10 +68,6 @@ export default hopeTheme({
 
   // sidebar
   sidebar: pinsilySidebar,
-
-  footer: '<p class="text-center">备案号: <a href="https://beian.miit.gov.cn/">粤ICP备2021066983号-1</a></p>',
-
-  displayFooter: true,
 
 
   // page meta
