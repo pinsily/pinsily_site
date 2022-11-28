@@ -1,0 +1,26 @@
+// place your custom styles here
+
+.sidebar {
+    font-size: 14px;
+}
+
+.article-item .article {
+    border-radius: 8px;
+}
+
+.article-item .title {
+    font-size: 16px;
+}
+
+.article-item .excerpt {
+    font-size: 14px;
+}
+
+.article-item .page-info {
+    font-size: 14px;
+}
+
+.blog-hero.fullscreen {
+    /* height: calc(100vh - var(--navbar-height)) !important; */
+    height: 350px !important;
+}
